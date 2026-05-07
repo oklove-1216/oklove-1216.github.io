@@ -22,24 +22,30 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.27.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"waline","storage":true,"lazyload":false,"nav":{"waline":{"text":"留言","order":-3}},"activeClass":"waline"},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
 
-    <meta name="description" content="HFUT合肥工业大学软件工程 25届大一新生 🏀🔥">
-<meta property="og:type" content="website">
-<meta property="og:title" content="YANG&#39;s Blog">
-<meta property="og:url" content="http://example.com/index.html">
+    <meta name="description" content="** 内容 **折腾了很久，终于将自己的个人博客成功部署上线。从环境搭建、主题配置到最终部署，经历了大大小小的坑。这里会提到一些我印象比较深刻的部分。 第一阶段** 1.安装Node.js **Hexo基于Node.js运行，生成静态页面。建议访问Node.js官网，下载的时候建议勾选“Automatically install the necessary tools”​ 这个选项（Windows">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于第一次利用hexo和git搭建属于自己的博客">
+<meta property="og:url" content="http://example.com/2026/05/07/%E5%85%B3%E4%BA%8E%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%88%A9%E7%94%A8hexo%E5%92%8Cgit%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/index.html">
 <meta property="og:site_name" content="YANG&#39;s Blog">
-<meta property="og:description" content="HFUT合肥工业大学软件工程 25届大一新生 🏀🔥">
+<meta property="og:description" content="** 内容 **折腾了很久，终于将自己的个人博客成功部署上线。从环境搭建、主题配置到最终部署，经历了大大小小的坑。这里会提到一些我印象比较深刻的部分。 第一阶段** 1.安装Node.js **Hexo基于Node.js运行，生成静态页面。建议访问Node.js官网，下载的时候建议勾选“Automatically install the necessary tools”​ 这个选项（Windows">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2026-05-07T06:55:37.000Z">
+<meta property="article:modified_time" content="2026-05-07T07:26:05.407Z">
 <meta property="article:author" content="来自神奈川的喵喵酱">
+<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="git">
+<meta property="article:tag" content="博客搭建">
+<meta property="article:tag" content="新手教程">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2026/05/07/%E5%85%B3%E4%BA%8E%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%88%A9%E7%94%A8hexo%E5%92%8Cgit%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/">
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2026/05/07/%E5%85%B3%E4%BA%8E%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%88%A9%E7%94%A8hexo%E5%92%8Cgit%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/","path":"2026/05/07/关于第一次利用hexo和git搭建属于自己的博客/","title":"关于第一次利用hexo和git搭建属于自己的博客"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>YANG's Blog</title>
+<title>关于第一次利用hexo和git搭建属于自己的博客 | YANG's Blog</title>
   
 
 
@@ -90,7 +96,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">YANG's Blog</h1>
+      <p class="site-title">YANG's Blog</p>
       <i class="logo-line"></i>
     </a>
   </div>
@@ -116,7 +122,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -129,6 +135,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%86%85%E5%AE%B9"><span class="nav-number">1.</span> <span class="nav-text">** 内容 **</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5"><span class="nav-number">1.1.</span> <span class="nav-text">第一阶段</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BA%94%E6%98%BE%E7%A4%BA%E7%B1%BB%E4%BC%BC-10-7-0"><span class="nav-number">2.</span> <span class="nav-text">应显示类似 10.7.0</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BA%94%E6%98%BE%E7%A4%BA%E7%B1%BB%E4%BC%BC-git-version-2-45-0"><span class="nav-number">3.</span> <span class="nav-text">应显示类似 git version 2.45.0</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5"><span class="nav-number">3.1.</span> <span class="nav-text">第二阶段</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E9%A1%B9%E7%9B%AE-%EF%BC%88%E9%AA%A8%E6%9E%B6%E7%9A%84%E6%90%AD%E5%BB%BA%EF%BC%89"><span class="nav-number">3.1.1.</span> <span class="nav-text">** 创建博客项目 （骨架的搭建）**</span></a></li></ol></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -173,16 +180,17 @@
 
     </div>
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2026/05/07/%E5%85%B3%E4%BA%8E%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%88%A9%E7%94%A8hexo%E5%92%8Cgit%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -196,13 +204,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | YANG's Blog">
+      <meta itemprop="name" content="关于第一次利用hexo和git搭建属于自己的博客 | YANG's Blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2026/05/07/%E5%85%B3%E4%BA%8E%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%88%A9%E7%94%A8hexo%E5%92%8Cgit%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/" class="post-title-link" itemprop="url">关于第一次利用hexo和git搭建属于自己的博客</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          关于第一次利用hexo和git搭建属于自己的博客
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -239,8 +247,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="内容"><a href="#内容" class="headerlink" title="** 内容 **"></a>** 内容 **</h1><p>折腾了很久，终于将自己的个人博客成功部署上线。从环境搭建、主题配置到最终部署，经历了大大小小的坑。这里会提到一些我印象比较深刻的部分。</p>
+    <div class="post-body" itemprop="articleBody"><h1 id="内容"><a href="#内容" class="headerlink" title="** 内容 **"></a>** 内容 **</h1><p>折腾了很久，终于将自己的个人博客成功部署上线。从环境搭建、主题配置到最终部署，经历了大大小小的坑。这里会提到一些我印象比较深刻的部分。</p>
 <h2 id="第一阶段"><a href="#第一阶段" class="headerlink" title="第一阶段"></a>第一阶段</h2><p>** 1.安装Node.js **<br>Hexo基于Node.js运行，生成静态页面。<br>建议访问Node.js官网，下载的时候建议勾选“Automatically install the necessary tools”​ 这个选项（Windows 上会安装必要的编译工具）。</p>
 <p>打开open git bash here 在终端里输入 npm -v 验证，</p>
 <h1 id="应显示类似-10-7-0"><a href="#应显示类似-10-7-0" class="headerlink" title="应显示类似 10.7.0"></a>应显示类似 10.7.0</h1><p>** 安装Git **<br>（这里因为我之前在linux系统的粗略学习的时候，已经配置好了所有后续再讲解方法。）大致就是用来管理我的博客，并推送到 GitHub，以后的很多重要操作就是在open git bash here终端里实现的，不像windows系统的图形化页面，主要依靠命令行来实现。</p>
@@ -255,7 +262,6 @@
 <p>** 首次本地预览 **<br>现在你就可以初步预览自己的博客了~~~<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s<br>hexo clean : 清除缓存文件和已经生成的静态文件，每次修改后必须执行！！<br>hexo g：重新编译生成静态文件到public文件夹。<br>hexo s： 启动服务器，只能用于本地预览。<br>（后续git连接GitHub仓库后，会用到另一个经常用的命令 hexo d,d表示delivery，上传到GitHub仓库）</p>
 <p>打开浏览器，访问 <a href="http://localhost:4000。你应该能看到">http://localhost:4000。你应该能看到</a> Hexo 的默认“Hello World”页面。<br>但是目前只是本地预览，其他人并不能看见，这个还需要依赖后续上传到GitHub仓库了。</p>
 
-      
     </div>
 
     
@@ -263,95 +269,24 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
+          <div class="post-tags">
+              <a href="/tags/hexo/" rel="tag"># hexo</a>
+              <a href="/tags/git/" rel="tag"># git</a>
+              <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" rel="tag"># 博客搭建</a>
+              <a href="/tags/%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B/" rel="tag"># 新手教程</a>
+          </div>
 
+        
 
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2026/05/06/%E9%A6%96%E9%A1%B5/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/891444fb4467f5afb420d8a7f43c93d9.jpg">
-      <meta itemprop="name" content="来自神奈川的喵喵酱">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="YANG's Blog">
-      <meta itemprop="description" content="HFUT合肥工业大学软件工程 25届大一新生 🏀🔥">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | YANG's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2026/05/06/%E9%A6%96%E9%A1%B5/" class="post-title-link" itemprop="url">首页</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2026-05-06 16:39:10 / 修改时间：17:13:46" itemprop="dateCreated datePublished" datetime="2026-05-06T16:39:10+08:00">2026-05-06</time>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-    <span class="post-meta-item-icon">
-      <i class="far fa-comment"></i>
-    </span>
-    <span class="post-meta-item-text">Waline：</span>
-  
-    <a title="waline" href="/2026/05/06/%E9%A6%96%E9%A1%B5/#waline" itemprop="discussionUrl">
-      <span class="post-comments-count waline-comment-count" data-path="/2026/05/06/%E9%A6%96%E9%A1%B5/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="欢迎来到我的博客！"><a href="#欢迎来到我的博客！" class="headerlink" title="欢迎来到我的博客！"></a>欢迎来到我的博客！</h1><p>这是我的博客首页</p>
-<p>目前正在优化当中！！！ 没有时间优化！！！</p>
-<p>单纯日常发牢骚用的，偶尔会总结自己计算机学习遇见的问题和解决办法，但文章很水，没有什么含金量！！</p>
-<p>期间遇见了很多很多大大小小的问题，比如今天用vscode的markdown修改的时候把编译语言改为了简体中文（GB18030），切记是UTF-8！！！要不然就是乱码，导致我今天近代史课上修改破防了，忘了是什么，一遍遍的试，最后把我的第一篇文章删了，所以现在空空如也！！删了以为就没事了，发现主题NexT必须有一个.md否则页面打不开,又重新写了篇首页！哭！上次想哭还是因为git连接GitHub仓库时候，端口不对一直连接不上，后来靠豆包强制改了！！</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2026/05/06/%E9%A6%96%E9%A1%B5/" rel="prev" title="首页">
+                  <i class="fa fa-angle-left"></i> 首页
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
@@ -360,6 +295,8 @@
 
 
 
+
+    <div class="comments" id="waline"></div>
 </div>
   </main>
 
@@ -395,7 +332,7 @@
 <noscript>
   <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
 </noscript>
-<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-CN","enable":true,"serverURL":"https://oklove-1216-github-io.vercel.app","cssUrl":"https://unpkg.com/@waline/client@v2/dist/waline.css","commentCount":true,"pageview":false,"placeholder":"欢迎留言～","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"visitor":true,"highlight":true,"el":"#waline","comment":true,"libUrl":"//unpkg.com/@waline/client@v2/dist/waline.js","path":"/"}</script>
+<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-CN","enable":true,"serverURL":"https://oklove-1216-github-io.vercel.app","cssUrl":"https://unpkg.com/@waline/client@v2/dist/waline.css","commentCount":true,"pageview":false,"placeholder":"欢迎留言～","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"visitor":true,"highlight":true,"el":"#waline","comment":true,"libUrl":"//unpkg.com/@waline/client@v2/dist/waline.js","path":"/2026/05/07/%E5%85%B3%E4%BA%8E%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%88%A9%E7%94%A8hexo%E5%92%8Cgit%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/"}</script>
 <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
 <script>
 document.addEventListener('page:loaded', () => {
